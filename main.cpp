@@ -1,23 +1,9 @@
-#include <SFML/Graphics.hpp>
+#include "Game.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(850, 600), "Snake_0.1");
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Black); 
+	Game game;
+	game.Run();
 
-	while (window.isOpen())
-	{
-		sf::Event event;
-		while (window.pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				window.close();
-		}
-
-		window.clear();
-		window.draw(shape);
-		window.display();
-	}
 	return 0;
 }

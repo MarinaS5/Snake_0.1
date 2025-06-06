@@ -12,7 +12,7 @@ namespace Engine
 
 		virtual void Init() = 0;
 		virtual void ProcessInput() = 0;
-		virtual void Update(sf::Time deltaTime) = 0;//make work at the identical frame rate
+		virtual void Update(const sf::Time& deltaTime) = 0;//make work at the identical frame rate
 		virtual void Draw() = 0;
 
 		virtual void Pause() {};

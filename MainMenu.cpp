@@ -16,7 +16,7 @@ MainMenu::~MainMenu()
 
 void MainMenu::Init()
 {
-    m_context->m_assets->AddFont(MAIN_FONT, "resources/Fonts/Roboto-Medium.ttf");
+    m_context->m_assets->AddFont(MAIN_FONT, "resources/Fonts/MariettaSeven.ttf");
 
     // Title
     m_gameTitle.setFont(m_context->m_assets->GetFont(MAIN_FONT));
@@ -24,7 +24,7 @@ void MainMenu::Init()
     m_gameTitle.setOrigin(m_gameTitle.getLocalBounds().width / 2,
         m_gameTitle.getLocalBounds().height / 2);
     m_gameTitle.setPosition(m_context->m_window->getSize().x / 2,
-        m_context->m_window->getSize().y / 2 - 150.f);
+        m_context->m_window->getSize().y / 2 - 130.f);
 
     // Play Button
     m_playButton.setFont(m_context->m_assets->GetFont(MAIN_FONT));
@@ -32,7 +32,7 @@ void MainMenu::Init()
     m_playButton.setOrigin(m_playButton.getLocalBounds().width / 2,
         m_playButton.getLocalBounds().height / 2);
     m_playButton.setPosition(m_context->m_window->getSize().x / 2,
-        m_context->m_window->getSize().y / 2 - 25.f);
+        m_context->m_window->getSize().y / 2 - 20.f);
     m_playButton.setCharacterSize(20);
 
     // Exit Button
@@ -41,7 +41,7 @@ void MainMenu::Init()
     m_exitButton.setOrigin(m_exitButton.getLocalBounds().width / 2,
         m_exitButton.getLocalBounds().height / 2);
     m_exitButton.setPosition(m_context->m_window->getSize().x / 2,
-        m_context->m_window->getSize().y / 2 + 25.f);
+        m_context->m_window->getSize().y / 2 + 35.f);
     m_exitButton.setCharacterSize(20);
 }
 
@@ -106,12 +106,12 @@ void MainMenu::Update(const sf::Time& deltaTime)
 {
     if (m_isPlayButtonSelected)
     {
-        m_playButton.setFillColor(sf::Color::Black);
+        m_playButton.setFillColor(sf::Color::Red);
         m_exitButton.setFillColor(sf::Color::White);
     }
     else
     {
-        m_exitButton.setFillColor(sf::Color::Black);
+        m_exitButton.setFillColor(sf::Color::Red);
         m_playButton.setFillColor(sf::Color::White);
     }
 

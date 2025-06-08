@@ -16,6 +16,9 @@
     <Filter Include="Libraries">
       <UniqueIdentifier>{43f9ec9b-a1f5-4635-8e35-cb951207c1e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{8c77efcd-1cf1-4c98-b255-cc863e6228b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -710,10 +713,84 @@
     <Media Include="resources\ball.wav">
       <Filter>Resource Files</Filter>
     </Media>
+    <Media Include="resources\Crunch.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\Wall.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <Font Include="resources\sansation.ttf">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Fonts</Filter>
     </Font>
+    <Font Include="resources\Fonts\MariettaSeven.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Patch.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Black.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-BlackItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Bold.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-BoldItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Italic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Light.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-LightItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Medium.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-MediumItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-ThinItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Thin.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\Fonts\Roboto-Regular.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Apple.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Wall.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Head.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Rock.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Body.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Body2.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Tale.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

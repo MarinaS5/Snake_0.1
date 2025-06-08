@@ -604,9 +604,35 @@ copy /Y "$(SolutionDir)resources"  "$(TargetDir)resources\"</Command>
   </ItemGroup>
   <ItemGroup>
     <Media Include="resources\ball.wav" />
+    <Media Include="resources\Crunch.wav" />
+    <Media Include="resources\Wall.wav" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="resources\Fonts\MariettaSeven.ttf" />
+    <Font Include="resources\Fonts\Patch.ttf" />
+    <Font Include="resources\Fonts\Roboto-Black.ttf" />
+    <Font Include="resources\Fonts\Roboto-BlackItalic.ttf" />
+    <Font Include="resources\Fonts\Roboto-Bold.ttf" />
+    <Font Include="resources\Fonts\Roboto-BoldItalic.ttf" />
+    <Font Include="resources\Fonts\Roboto-Italic.ttf" />
+    <Font Include="resources\Fonts\Roboto-Light.ttf" />
+    <Font Include="resources\Fonts\Roboto-LightItalic.ttf" />
+    <Font Include="resources\Fonts\Roboto-Medium.ttf" />
+    <Font Include="resources\Fonts\Roboto-MediumItalic.ttf" />
+    <Font Include="resources\Fonts\Roboto-Regular.ttf" />
+    <Font Include="resources\Fonts\Roboto-Thin.ttf" />
+    <Font Include="resources\Fonts\Roboto-ThinItalic.ttf" />
     <Font Include="resources\sansation.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Apple.PNG" />
+    <Image Include="resources\Background.png" />
+    <Image Include="resources\Body.PNG" />
+    <Image Include="resources\Body2.PNG" />
+    <Image Include="resources\Head.PNG" />
+    <Image Include="resources\Rock.PNG" />
+    <Image Include="resources\Tale.PNG" />
+    <Image Include="resources\Wall.PNG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

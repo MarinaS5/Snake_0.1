@@ -209,6 +209,8 @@
     <None Include="extlibs\bin\x86\openal32.dll">
       <Filter>Libraries</Filter>
     </None>
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="extlibs\lib\x64\flac.lib">
